@@ -18,7 +18,7 @@ void main(String args[]) {
 			.array();
 
 	for (byte b : bytes) {
-		IO.printf("%02X ", b);
+		System.out.printf("%02X ", b);
 	}
 	IO.println("\n");
 }

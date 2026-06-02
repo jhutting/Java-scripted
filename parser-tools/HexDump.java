@@ -1,5 +1,6 @@
 /**
  * Ensure Java 25+ is installed, then run `java HexDump.java file`
+ * To copy it to the clipboard directly: `java HexDump.java file | pbcopy`
  * @param args The file to be converted to HEX
  */
 void main(String[] args) {

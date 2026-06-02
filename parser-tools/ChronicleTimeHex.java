@@ -3,7 +3,7 @@
  * @param args a LocalDateTime in minutes, for example "2026-02-22T21:39:00" (quotes not needed)
  */
 
-void main(String args[]) {
+void main(String[] args) {
 	LocalDateTime ldt = LocalDateTime.parse(args[0]);
 
 	long epochSeconds = ldt.atZone(ZoneId.systemDefault()).toEpochSecond();

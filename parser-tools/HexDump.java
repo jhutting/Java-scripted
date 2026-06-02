@@ -10,7 +10,7 @@ void main(String[] args) {
 
         while ((bytesRead = is.read(buffer)) != -1) {
             for (int i = 0; i < bytesRead; i++) {
-                System.out.printf("%02X ", buffer[i]);
+                IO.printf("%02X ", buffer[i]);
             }
             IO.println();
         }
